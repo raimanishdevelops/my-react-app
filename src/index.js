@@ -15,3 +15,10 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
+  // Entry point of the project 
+  // there is this comment just o check show you the push and pull for any juniour developers that are watching
+  
