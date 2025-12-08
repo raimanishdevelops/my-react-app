@@ -1,38 +1,105 @@
-.App {
+.app-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-area {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.notes-list {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.note-card {
+  background: #f3f3f3;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.note-card.highlighted {
+  background: #fff7aa;
+  border-left: 6px solid #ffcc00;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  border: none;
   color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-btn:hover {
+  background: #e60000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.highlight-btn {
+  background: #2d89ef;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.highlight-btn:hover {
+  background: #1b58a8;
+}
+
+.edit-btn {
+  background: #ffa500;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  background: #cc8400;
+}
+
+.save-btn {
+  background: #28a745;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.save-btn:hover {
+  background: #1e7e34;
+}
+
+.edit-input {
+  width: 65%;
+  padding: 8px;
+  font-size: 16px;
 }
