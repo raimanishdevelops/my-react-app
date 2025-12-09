@@ -1,4 +1,6 @@
-Manish changed it 
+Manish changed it rmotely 
+
+manish again changed locally from his system
 
 # Getting Started with Create React App
 
